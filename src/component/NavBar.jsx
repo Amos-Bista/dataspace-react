@@ -1,7 +1,6 @@
-"use client";
 import React, { useState, useEffect, useRef } from "react";
 import navItems from "../assets/JSON fILES/navItems.json";
-import Link from "next/link";
+import '../index.css';
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -86,9 +85,9 @@ const NavBar = () => {
                     )}
                   </div>
                 ) : (
-                  <Link href={item.link}>
-                    <a>{item.title}</a>
-                  </Link>
+                  <li key={index}>
+                    <a href={item.link}>{item.title}</a>
+                  </li>
                 )}
               </li>
             ))}
