@@ -37,7 +37,7 @@ const Footer = () => {
         <div className=' flex w-[55%]'>
             <div className='px-5 w-[70%] pr-5'>
                 <h1 className='text-3xl '>About us</h1>
-                <p className='pt-3 leading-relaxed text-justify  text-1xl'>we are Nepal First Data Center And Your
+                <p className='pt-3 leading-relaxed text-justify text-1xl'>we are Nepal First Data Center And Your
                 Complete Technology Partner, Offering A
                 Wide Range Of Services To Enhance Your
                 Digital Journey.</p>
@@ -60,7 +60,7 @@ const Footer = () => {
     
     <div className='mx-16'>
 
-    <div className='flex justify-between border-t-2 border-[#E5E7EB] border-b-2 border-[#E5E7EB] px- py-2 text-white'>
+    <div className='flex justify-between border-t-2 border-[#E5E7EB] border-b-2 px- py-2 text-white'>
         <div>ds@ds.com.np</div>
         <div>Putalisadak, Kathmandu, Nepal</div>
         <div>+977-1-5369718</div>

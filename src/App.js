@@ -6,12 +6,12 @@ import Plans from "./component/Plans";
 
 function App() {
   return (
-    <div className="relative flex-col text-black">
-      <div className="mb-64 ">
+    <div className="flex-col text-black ">
+      <div className="relative mb-64">
         <Herosection />
       </div>
 
-      <div className="absolute top-[51%]  w-full">
+      <div className="absolute w-full top-[69%]">
         <SearchDomain />
       </div>
 

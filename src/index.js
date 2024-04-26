@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import NavBar from "./component/NavBar";
+import Footer from "./component/footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <div className="fixed top-0 w-full">
       <NavBar />
     </div>
+   <Footer/>
   </React.StrictMode>
 );
 
