@@ -1,14 +1,13 @@
-
 import "./App.css";
 import Herosection from "./component/herosection";
 import SearchDomain from "./component/searchdomain";
-// import Plans from "./component/Plans";
-import Valuablecustomer from "./component/valuablecustomer";
+// import Valuablecustomer from "./component/valuablecustomer";
+import Plans from "./component/Plans";
 
 function App() {
   return (
-    <div className="flex-col text-black relative">
-      <div className=" mb-64">
+    <div className="relative flex-col text-black">
+      <div className="mb-64 ">
         <Herosection />
       </div>
 
@@ -20,12 +19,12 @@ function App() {
         <h1 className="flex justify-center text-4xl ">
           Our Popular Plans & Pricing
         </h1>
-        {/* <div className="mb-28">
+        <div className="mb-28">
           <Plans />
-        </div> */}
+        </div>
       </section>
       {/* <section className="mb-28">
-        <h1 className="flex justify-center text-4xl pb-10">
+        <h1 className="flex justify-center pb-10 text-4xl">
           Our Valued Costumers
         </h1>
         <Valuablecustomer />
